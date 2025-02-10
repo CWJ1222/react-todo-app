@@ -6,6 +6,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@reduxjs/toolkit": "^2.5.0",
+    "@types/node": "^22.12.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -14,7 +17,8 @@
     "react-scripts": "5.0.1",
     "redux": "^5.0.1",
     "sass": "^1.83.4",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "typescript": "^5.7.3"
   },
   "scripts": {
     "start": "react-scripts start",

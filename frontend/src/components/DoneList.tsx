@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux";
+import { ReduxState } from "../types/types";
 
 export default function DoneList() {
   // 완료 목록 불러오고
-  const doneList = useSelector((state) => state.todo.list).filter(
+  const doneList = useSelector((state: ReduxState) => state.todo.list).filter(
     (el) => el.done === true
   );
 
